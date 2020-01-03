@@ -1,0 +1,52 @@
+body{
+	background-color:yellow; 
+}
+.santa{
+width: 350px;
+height:600px;
+background-color:red;
+}
+.body{
+width:350px; 
+height:350px;
+background-color:tomato;
+border-radius:50%;
+position:absolute; 
+top:250px; 
+}
+.head{
+width:170px; 
+height:250px;
+background-color:violet;
+position:absolute;
+left: 90px;
+top: 70px;
+z-index:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
