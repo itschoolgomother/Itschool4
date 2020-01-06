@@ -1,13 +1,22 @@
 body{
-    background-color: yellow;
+    background-image: url("snow.gif");
+    background-size: 100%;
 }
 .santa{
     width: 350px;
     height: 600px;
    position: absolute;   
-left: 50%;
-top:50%;
+left: 40%;
+top:20%;
+transform-origin: center bottom;
+animation: 2s santam alternate infinite ease-in-out;
 transform: translate(-50%,-50%);
+animation: 5s santam infinite;
+}
+@keyframes santam{
+from{ transform: rotate(-15deg); }
+to{ transform: rotate(15deg); }
+
 }
 .body{
     width: 350px;
@@ -135,8 +144,33 @@ h1{
 70%{ color:black;  }
 100%{ color:red;   }
 }
-
-
+.pugovica1{
+width: 20px; 
+height: 10px;
+background-color:black;
+border-radius: 50%;
+position:absolute;
+left: 170px;
+top: 350px;
+}
+.pugovica2{
+width:20px; 
+height:10px;
+background-color:black;
+border-radius: 50%;
+position:absolute;
+left: 170px;
+top: 350px;
+}
+.pugovica3{
+ width:10px; 
+height: 10px;
+background-color:black;
+border-radius:50%;
+position:absolute;
+left: 170px;
+top: 350px;   
+}
 
 
 
