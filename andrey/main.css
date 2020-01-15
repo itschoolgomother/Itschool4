@@ -1,0 +1,9 @@
+body{
+	background-color: red;	
+}
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: indigo;
+	border-radius: 0% 50% 50% 50%;
+}
