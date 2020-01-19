@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<textarea id="text"></textarea>
+<button onclick="get('')">УГАДАЙ:)</button>
+<script type="text/javascript">
+	var r = Math.random()*100;
+	r=Math.round(r)
+	function get(){
+    var value = document.getElementById("text").value;
+     if(value == r){alert("ПОЗДРАВЛЯЮ, ВЫ ПРОИГРАЛИ ПОЧКУ")}
+     if(value < r){alert("ЧИСЛО БОЛЬШЕ")}
+     else if(value > r){alert("ЧИСЛО МЕНЬШЕ")}
+	} 
+	
+
+</script>
+ 
+
+</body>
+</html>

@@ -1,14 +1,11 @@
-var test =  document.getElementById("box");
-var colors = ["red", "blue", "purple" ,"orange"];
+// alert(String.fromCharCode(97));
+
+var str = "Admin";
+var string = str.split('');
+
+for(var i = 0; i<string.length-1;i++){
+
+alert(string[i].charCodeAt(0))
+}
 
 
-
-
-
-
-
-test.style.backgroundColor = colors[3];
-test.style.width = "100px";
-test.style.height = "100px";
-alert("Hello");
-console.log("666");
