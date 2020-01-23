@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script type="text/javascript">
-	var a = prompt('укажытэ a')	
-    var b = prompt('укажытэ b')
-    var c = prompt('Сумироват?')
-    if (c==true) {} else {c=a+b}
-    alert(c)
-
-
-
-
-
-	</script>
-	<title>test</title>
+	<title></title>
 </head>
 <body>
-<link rel="stylesheet" type="text/css" href="main.css">
+<button id = "ww" onclick = "maksdura()"> linux dura </button>
+<textarea id ="text"></textarea>
+<script type="text/javascript">
+var text;
+var p = 5;
+var s = Math.random()*100;
+s = Math.round(s)
+function maksdura() {
+p = p - 1;
+text = document.getElementById('text').value
+document.getElementById('ww').style.color = text;
+if (text<s) {
+alert('число слишком маленькое')
+}
+else if (text>s) {
+alert('число слишком большое')
+}
+else if (text==s) {
+alert('макс лох')
+}
+ if (p==0){
+ alert
+}
+}
+</script>
 </body>
 </html>
