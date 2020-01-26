@@ -1,8 +1,4 @@
- var name = prompt("Ваше имя?","striker")
-
-   
-var box = document.getElementById( "box");
-alert("hi " + name )
-box.style.width = "100px ";
-box.style.height = " 100px";
-box.style.backgroundColor = "red ";
+var x =prompt("usd","7"  );
+var usd = 24.42	
+ 
+alert(x*usd+"uah")

@@ -4,21 +4,26 @@
 	<title></title>
 </head>
 <body>
-<textarea id="text"></textarea>
-<button onclick="get('')">УГАДАЙ:)</button>
+<textarea id="tt"></textarea>
+<button onclick="to()">СКОК БАБЛА</button>
+<button onclick="RED()">RED</button>
+<button onclick="BLACK()">BLACK</button>
 <script type="text/javascript">
-	var r = Math.random()*100;
-	r=Math.round(r)
-	function get(){
-    var value = document.getElementById("text").value;
-     if(value == r){alert("ПОЗДРАВЛЯЮ, ВЫ ПРОИГРАЛИ ПОЧКУ")}
-     if(value < r){alert("ЧИСЛО БОЛЬШЕ")}
-     else if(value > r){alert("ЧИСЛО МЕНЬШЕ")}
+	var m = 1000;
+	function RED(){
+    var ch = 0;
+    var k = document.getElementById('tt').value;
+	m = m - k;
 	} 
-	
+    function BLACK(){
+    var ch = 1;
+    var k = document.getElementById('tt').value;
+    m = m - k;
+    }
+	function to(){
+    alert("У Вас: "+m+"$")
+    }
 
-</script>
- 
-
+</script>	
 </body>
 </html>
