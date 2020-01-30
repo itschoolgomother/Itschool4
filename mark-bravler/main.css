@@ -1,23 +1,8 @@
-div{    
-   width: 100px;
-   height: 100px;
-   background-color: red;
- }
- body{
-background-color: blue;
- }
- .red{
-     width: 123px;
-     height: 124px;
-     background-color: red;
- }
- .yellow{
-     width: 123px;
-     height: 124px;
-     background-color: yellow;
- }
- .green{
-     width: 123px;
-     height: 124px;
-     background-color: green;
- }
+	body{  
+		background-color:blue;
+}
+.snowman{
+  width: 200px;
+  height: 500px;
+ background-color: burlywood;  
+    }

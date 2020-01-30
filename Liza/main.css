@@ -1,10 +1,45 @@
 body{
 	background-color:blue;
 }
-h1{
-	color: green;
-	text-align: center;
-	font-size: 950px;
-	text-decoration-line: under; 
-
+.snowman{
+	width: 200px;
+	height: 500px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
+.legs{
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	top:300px;
+}
+.body{  
+    width: 150px;
+    height: 150px;
+    background-color:white;
+    border-radius: 50%;
+    position: absolute;
+    top: 155px;
+    left: 35px;
+     }
+     .head{
+     	width: 100px;
+     	height: 100px;
+     	background-color: white;
+     	border-radius: 50%;
+     	position: absolute;
+     	top:60px;
+     	left: 60px;
+     }
+    .eyel{
+    	width: 10px;
+    	height:20px;
+        background-color: black;
+        border-radius:50%;
+        position:absolute;
+        top:50;
+        left:50;
