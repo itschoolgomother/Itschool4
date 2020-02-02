@@ -31,4 +31,3 @@ for(var i = 0; i<letters.length; i++){
 }
 console.log(shifr)
 //String.fromCharCodeAt(97))
-phyton3 main.py
