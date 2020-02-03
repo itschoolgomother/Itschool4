@@ -6,9 +6,45 @@
 //  alert(Math.round(test/cfh)+"cfh");
 //  var bitcoin = 193 310.15;
 //  alert(Math.round(test/usd)+"bitcoin")
-var box = document.getElementById('box')
-var size = prompt("size","100")
-var color = prompt("blue");
-box.style.width = size + "px";
-box.style.height = size + "px";
-box.style.backgroundColor = color;
+
+
+
+
+
+document.body.style.backroundColor = "rgb(50,50,100)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
