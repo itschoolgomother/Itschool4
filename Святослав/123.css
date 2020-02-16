@@ -1,0 +1,47 @@
+h1{
+	color: green;
+	background-color: pink;
+	width: 300px;
+	height: 300px;
+	z-index: 5;
+	text-align: center;
+	border-radius: 200px;
+	border:22px dotted green;
+	position: absolute;
+	left: 200px;
+	bottom: 20px;
+}h2{color: green;
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	border-radius: 270px;
+	border:15px dotted green;
+	position: absolute;
+	left: 250px;
+	bottom: 350px;
+}
+	h3{color: green;
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	border-radius: 250px;
+	border:12px dotted green;
+	position: absolute;
+	left:  305px;
+	bottom: 570px;
+	}
+	h4{color: black;
+	background-color: black;
+	width: 50px;
+	height: 15px;
+	text-align: center;
+	border:35px dotted green;
+	position: absolute;
+	left:  305px;
+	bottom: 690px;
+}
+body {background-color: green;}
+
+	

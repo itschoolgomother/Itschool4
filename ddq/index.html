@@ -3,79 +3,26 @@
 <head>
 	<title></title>
 </head>
-<body>
-	<button onclick="button()">iq</button>
-<canvas id = "canvas"  ></canvas>
+<body id = "bod" style="height: 2000px;">
 <script type="text/javascript">
-var canvas = document.getElementById('canvas');
-var ctx = canvas.getContext('2d');
-canvas.width = 500;
-canvas.height= 500;
-var x = 50;
-var y = 50;
-var c = 0;
-for (var i = 0; i<25;i++) {
-ctx.beginPath();
-ctx.rect(x,y,50,50);
-ctx.fill();
-x+=75
-if (x>400)  {y+=75; x=50;}
-}
-function button() {
-var x = 50;
-var y = 50;
-for (var i = 0; i<5;i++) {
-ctx.fillStyle="red"
-ctx.beginPath();
-ctx.rect(x,y,50,50);
-ctx.fill();
-x+=75
-}
-if (c>=1){
-y=125;
-x=50;
-for (var i = 0; i<5;i++) {
-ctx.fillStyle="blue"
-ctx.beginPath();
-ctx.rect(x,y,50,50);
-ctx.fill();
-x+=75
-}}
-if (c>=2){
-y=200;
-x=50;
-for (var i = 0; i<5;i++) {
-ctx.fillStyle="green"
-ctx.beginPath();
-ctx.rect(x,y,50,50);
-ctx.fill();
-x+=75
-}}
-if (c>=3){
-y=275;
-x=50;
-for (var i = 0; i<5;i++) {
-ctx.fillStyle="yellow"
-ctx.beginPath();
-ctx.rect(x,y,50,50);
-ctx.fill();
-x+=75
-}}
-if (c>=4){
-y=350;
-x=50;
-for (var i = 0; i<5;i++) {
-ctx.fillStyle="purple"
-ctx.beginPath();
-ctx.rect(x,y,50,50);
-ctx.fill();
-x+=75
-}}
-
-c=c+1;
-}
+window.addEventListener('scroll',ddq);
+var r = 255;
+var g = 0;
+var b = 0;
+var d = 0;
+function ddq(){
+console.log("r:"+r)
+console.log("g:"+g)
+console.log("b:"+b)
+d = pageYOffset*10;
+if (d>1){b++;}
+if (b>255){b=255;r--;}
+if(r<0){r=0; g++;}
+if (g>255) {g=255;b--;}
 
 
+document.getElementById('bod').style.background = 'rgb('+r+','+g+','+b+')';
+}
 </script>
 </body>
 </html>

@@ -22,9 +22,31 @@ header{
 .head-right{
 	width: 50%;
 	min-height: 150px;
+	display: flex;
+	justify-content: center;
 }
 .head-left > h1{
 	align-self: center;
 	font-size: 40px; 
-	color: orange;	
+	color: #F8F8FF;	
 }
+menu{
+	align-self: center;
+}
+menu > li {
+    list-style-type: none;
+    display:inline;
+    margin-left: 15px;
+    
+
+} 
+li > a {
+	text-decoration: none;
+	color:white;
+}  
+.content{
+	width: 100%;
+	min-height: 500px;
+	background-color: teal;
+	margin-top: 40px;
+}  
