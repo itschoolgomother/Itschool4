@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+.container{
+     max-width: 1200px;								
+     margin: 0 auto;
+}
+.title{
+     width: 100%;
+     min-height: 150px;
+     background-color:lightsalmon;
+     display: flex;
+     justify-content: center;
+     padding: 0 15px;
+}
+.title > h2{
+	color: white;
+    font-size: 35px;
+    align-self: center;
+}
+.main{
+     width: 100%;
+     min-height: 150px;
+     background-color:lightsalmon;	
+     margin-top: 50px;
+}
+
+
+
