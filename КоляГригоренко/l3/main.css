@@ -49,4 +49,25 @@ li > a {
 	min-height: 500px;
 	background-color: teal;
 	margin-top: 40px;
+	display: flex;
+
+}
+.mainL{
+	width: 40%;
+	
 }  
+.mainR{
+	width: 60%
+
+}
+.img > img{
+	width: 100%;
+}
+.text > h2 {
+	text-align: center;
+	color: royalblue;
+}
+.text > p{
+	color: wheat;
+	padding: 10px 0px;
+}

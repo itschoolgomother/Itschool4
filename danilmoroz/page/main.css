@@ -1,0 +1,24 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.con{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+body{
+	background-color: teal;
+}
+header{
+	width: 100%;
+	min-height: 100px;
+	background-color: blueviolet;
+
+}
+.head{
+	display: flex;
+    justify-content: center;
+}
+.logo{
+	line-height: 100px;
+}

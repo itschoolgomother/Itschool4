@@ -1,28 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<body id = "bod" style="height: 2000px;">
-<script type="text/javascript">
-window.addEventListener('scroll',ddq);
-var r = 255;
-var g = 0;
-var b = 0;
-var d = 0;
-function ddq(){
-console.log("r:"+r)
-console.log("g:"+g)
-console.log("b:"+b)
-d = pageYOffset*10;
-if (d>1){b++;}
-if (b>255){b=255;r--;}
-if(r<0){r=0; g++;}
-if (g>255) {g=255;b--;}
-
-
-document.getElementById('bod').style.background = 'rgb('+r+','+g+','+b+')';
-}
-</script>
+<body>
+<div  id="inform">
+	<p>Hello</p>
+	<p id="name">My name is Liza</p>
+	<p id="age">I'm 11 years old</p>
+</div>
 </body>
-</html>

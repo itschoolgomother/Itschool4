@@ -3,14 +3,26 @@
 <head>
 	<title></title>
 </head>
-<body>
-<br>Текст со след. строки
-<hr>горизонтальная линия
-<marguee>Двигаюшися текст</marguee>
-<button>кнопка</button>
-<s>скрытий текст</s>
-<b>жырный текст</b>
-<i>курсивный текст</i>
-<textarea>поле для ввода</textarea>
-</body>
-</html>
+<body style="height:2000px">
+<script type="text/javascript">
+window.addEventListener('scroll',img);
+function img(){
+var xi = -500+pageYOffset*3.3;
+if (xi>600) {xi=600;}
+document.getElementById('im').style.left = xi+'px'
+}	
+</script>
+<style type="text/css">
+#im {position:fixed;top:200px;}	
+#teext{width: 500px;position:absolute;top:500px;}
+</style>
+<div id="im"><center>
+	<img width="150;" src="1122.jpg">
+	<img width="150;" src="1122.jpg">
+	<img width="150;" src="1122.jpg">
+	<div>
+	<div id="teext">
+		<center>
+			Государственный гимн СССР — гимн СССР, принятый в 1943 году вместо «Интернационала». Слова для гимна написали С. В. Михалков и Эль-Регистан, музыку — А. В. Александров. В 2000 году мелодия Александра Александрова вкупе с новым текстом авторства Сергея Михалкова стала гимном России. Википедия
+		</center>
+</body>fixed
