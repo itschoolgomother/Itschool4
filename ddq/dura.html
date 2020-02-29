@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	window.addEventListener('scroll',dd);
+function dd() {
+	var x = -400+pageYOffset*3;
+	if (x>1300) {x=1300}
+		document.getElementById('text').style.right=x+'px'
+
+	var y = -400+pageYOffset*3;
+	if (y>2000) {y=2000}
+		document.getElementById('img').style.top=y+'px'
+    	
+    	var b = -400+pageYOffset*3;
+	if (b>1300) {b=1300}
+		document.getElementById('but').style.left=b+'px'
+
+}
+</script>
+<style type="text/css">
+	body {height: 2000px;}
+	#text{
+		right: -400px;
+		position: fixed;
+		top: 400px;
+		width: 300px;
+	}
+	#img{
+		position: fixed;
+		top: -400px;
+	}
+
+    #but{
+		left: -400px;
+		position: fixed;
+		top: 400px;
+		width: 300px;
+
+	}
+
+	 
+</style>
+<div id = 'text'><center>макс дурачок макс дурачок макс дурачок макс дурачок макс дурачок макс дурачок макс дурачок макс дурачок макс дурачок макс дурачок макс дурачок макс дурачок макс дурачок макс дурачок</center></div>
+<div id = 'img'><img width="1250px"  height = "300px" src="145458292112119207.jpg"></div>
+<div id = "but"><button> kuku maks</button></div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+#face {
+ width: 600px;
+ height: 600px;
+ border-radius: 50%;
+ background-color: green;
+ margin: auto;
+}
+#euer {
+width: 100px;
+height: 100px;
+border-radius: 50%; 
+background-color: red;
+position: relative;
+left: 100px;
+top: 150px;
+}
+#euel {
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+	background-color: blue;
+	position:relative;  
+	left: 400px;
+	top: 50px;
+}
+#nose {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: red;
+	left:250px; 
+	top: 100px;
+}
+#mouse {
+	width: 300px;
+	height:100px;
+	position:relative;
+	background-color: red;
+	left: 150px;
+	top: 110px;
+	
+}
