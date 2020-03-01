@@ -25,7 +25,7 @@
 	box-shadow: inset 12px -8px 3px 0px #f1f1f1;
 	position: absolute;
 	top:140px;
-	z-index: -1;
+	
 }
 .eyel{
 	width:40px;
@@ -100,5 +100,109 @@
 	border-radius: 50%;
 	position: absolute;
 	top: 95px;
-	left:68;
+	left:68px;
+}
+.min-nouse{
+	background-color: white;
+	width:10px;
+	height:7px;
+	border-radius: 50%;
+	position: absolute;
+	top: 4px;
+	left: 5px;
+}
+.mouth{
+	background-color: black;
+	width: 20px;
+	height: 14px;
+	border-radius: 100% 100% 60% 60%;
+	position: absolute;
+	top: 30px;
+	left: 7px; 
+}
+.min-mouth{
+	background-color:#F34372 ;
+	width: 10px;
+	height: 7px;
+	border-radius: 100% 100% 40% 40%;
+	position: absolute;
+	top: 7px;
+	left: 5px;
+}
+.earL{
+	background-color: black;
+	width: 70px;
+	height: 70px;
+	border-radius:100%;
+	position: absolute;
+	top:-10px;
+	left: -20px;
+	box-shadow: inset 8px 0px 3px 0px #222222;
+
+}
+.earR{
+	background-color: black;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	position: absolute;
+	top: -10px;
+	left: 120px;
+	box-shadow: inset 8px 0px 3px 0px #222222;
+}
+.legL{
+	background-color: black;
+	width:50px;
+	height: 80px;
+	border-radius: 40% 50% 40% 50%;
+	position: absolute;
+	top: 160px;
+	left: 10px;
+	transform: rotate(10deg);
+	z-index: -999;
+}
+.legR{
+	background-color: black;
+	width:50px;
+	height: 80px;
+	border-radius: 40% 50% 40% 50%;
+	position: absolute;
+	top: 159px;
+	left: 110px;
+	transform: rotate(-7deg);
+	z-index: -999;
+}
+.armL{
+	background-color: black;
+	width:50px;
+	height:60px;
+	border-radius: 40% 50% 40% 50%;
+	position: absolute;
+	top: 3px;
+	left: -25px;
+	transform: rotate(100deg);
+	z-index: -1;
+	box-shadow: inset 5px -2px 1px 0px #222;
+	border: 3px solid black;
+}
+.armR{
+background-color: black;
+	width:55px;
+	height:85px;
+	border-radius: 40% 50% 40% 50%;
+	position: absolute;
+	top:1px;
+	left: 140px;
+	transform: rotate(-55deg);
+	z-index: -1;
+}
+.armR2{
+	background-color: black;
+	width:55px;
+	height:85px;
+	border-radius: 40% 50% 40% 50%;
+	position: absolute;
+	top: 1px;
+	left: 180px;
+	transform: rotate(60deg);
 }
